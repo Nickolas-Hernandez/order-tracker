@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracker</title>
+    <link rel="stylesheet" href="./assets/styles/app.css">
+</head>
+<body>
+    <header class="container bg-slate-100 mx-auto mb-4">
+        <h1 class="header__heading text-2xl">header here</h1>
+    </header>
+    <main class="container mx-auto">
+        <div class="register-view mb-4">
+            <form class="register-view__form" action="">
+                <label for="name">Name&colon;</label><br>
+                <input class="border border-gray-300 rounded-md" type="text" name="name" required>
+                <p class="register-view__heading">Register as a&colon;</p>
+                <button class="register-view__client-btn bg-green-600 px-4 py-2 rounded-md border border-gray-300 text-white">Client</button>
+                <button class="register-view__driver-btn bg-red-600 px-4 py-2 rounded-md border border-gray-300 text-white">Driver</button>
+            </form>
+        </div>
+        <div class="process-tracker mb-4">
+            <hr class="h-1 bg-black">
+            <h2 class="process-tracker__heading">Process Tracker</h2>
+        </div>
+        <div class="map-view mb-4">
+            <hr class="h-1 bg-black">
+            <h2 class="map-view__heading">Map View</h2>
+        </div>
+    </main>
+    <script src="/client/node_modules/htmx.org/dist/htmx.min.js"></script>
+</body>
+</html>
